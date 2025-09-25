@@ -45,12 +45,12 @@
             Console.WriteLine("Boss's Health: " + bossHealth);
             Console.WriteLine("Minion 1's Health: " + minion1Health);
             Console.WriteLine("Minion 2's Health: " + minion2Health);
-            Console.WriteLine("");
 
 
             //**** Time to fight! ****
 
             //Boss attacks first
+            Console.WriteLine(""); //new line
             Console.WriteLine("Time to fight!");
             Console.WriteLine(villainName + " the " + villainTitle + " attacks " + heroFullName);
             Console.WriteLine(villainName + " the " + villainTitle + " deals " + bossStrength + " damage!");
@@ -82,7 +82,7 @@
             Console.WriteLine(minion1Name + " and " + minion2Name + " have been defeated!");
 
             //End of round buff
-            Console.WriteLine("");
+            Console.WriteLine(""); //new line
             Console.WriteLine(heroFullName + " has " + heroHealth + " health!");
             Console.WriteLine(heroFullName + " eats an apple to restore health");
             heroHealth++;
@@ -90,7 +90,7 @@
 
 
             //Round 2 of fight
-            Console.WriteLine("");
+            Console.WriteLine(""); //new line
             Console.WriteLine("The remaining fighters continue to fight!");
             Console.WriteLine("Hero's Health: " + heroHealth);
             Console.WriteLine("Boss's Health: " + bossHealth);
@@ -109,6 +109,7 @@
 
 
             //Results
+            Console.WriteLine(""); //new line
             Console.WriteLine(heroFullName + " is victorious!");
             Console.WriteLine("Wealth, glory, and straight A+'s to the winner!");
         }
